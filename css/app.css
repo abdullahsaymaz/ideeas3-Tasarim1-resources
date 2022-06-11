@@ -1,0 +1,39 @@
+body {
+    background-color: hsl(242, 55%, 52%) !important;
+    color: #f0d9da !important;
+}
+
+:root {
+    --default-font-color: #f0d9da;
+    --font-color-black: #141414;
+}
+
+.section-title {
+    border-bottom: 1px solid #fafafa;
+}
+
+.section-option {
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+    text-decoration: none;
+    color: var(--default-font-color) !important;
+}
+
+.section-option:hover {
+    background-color: hsl(242, 48%, 56%) !important;
+    transform: scale(1.2);
+}
+
+.default-font-color {
+    color: var(--default-font-color) !important;
+}
+
+.font-color-black {
+    color: var(--font-color-black) !important;
+}
+
+.add-btn {
+    border: 1px solid var(--default-font-color);
+    border-radius: 4px;
+}
+
